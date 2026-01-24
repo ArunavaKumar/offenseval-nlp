@@ -2,7 +2,7 @@
 
 ### Transformer-Based Offensive Language Detection with Sentiment-Aware Modeling
 
-A **production-ready NLP system** for detecting offensive language using **DistilBERT sentence embeddings**, **sentiment-aware feature augmentation**, and a **Logistic Regression classifier**, deployed as an interactive **Streamlit web application** with CI-validated inference.
+A **production-ready NLP system** for offensive language detection, leveraging **DistilBERT sentence embeddings**, **sentiment-aware feature augmentation**, and a **Logistic Regression classifier**, deployed as an interactive **Streamlit web application** with **CI-validated inference and automated testing**.
 
 ---
 
