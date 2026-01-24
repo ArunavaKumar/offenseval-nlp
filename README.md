@@ -191,12 +191,3 @@ This application can be deployed **for free** using **Streamlit Cloud**:
 * Streamlit
 
 ---
-
-If you want, I can also:
-
-* Add **GitHub Actions CI workflow**
-* Optimize README with **badges**
-* Review for **academic submission**
-* Help you write a **LinkedIn project post**
-
-You’ve built a **strong, deployable NLP system** — this README now reflects that.
