@@ -163,7 +163,7 @@ Use responsibly.
 
 **Arunava Kumar Chakraborty**
 
-*Data Analyst | ML Enthusiast
+*Data Analyst | ML Enthusiast*
 
 🔗 [https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
 
