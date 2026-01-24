@@ -9,7 +9,7 @@ A **production-ready NLP system** for detecting offensive language using **Disti
 ## 🌐 Live Demo
 
 👉 **Deployed Application:**
-[Web Application URL](https://offenseval-nlp-ojkd85r386zbffvjbvrkst.streamlit.app/)
+[https://offenseval-nlp-ojkd85r386zbffvjbvrkst.streamlit.app/](https://offenseval-nlp-ojkd85r386zbffvjbvrkst.streamlit.app/)
 
 > The app demonstrates real-time offensive language detection with sentiment transparency and confidence-based predictions.
 
