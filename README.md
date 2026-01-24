@@ -1,12 +1,23 @@
-# 🚨 OffensEval NLP – Offensive Language Detection using Transformers
+# 🚨 OffensEval NLP
 
-A **production-ready NLP system** for detecting offensive language in text using **DistilBERT sentence embeddings**, **sentiment-aware feature augmentation**, and a **Logistic Regression classifier**, deployed via **Streamlit** with CI-validated inference.
+### Transformer-Based Offensive Language Detection with Sentiment-Aware Modeling
+
+A **production-ready NLP system** for detecting offensive language using **DistilBERT sentence embeddings**, **sentiment-aware feature augmentation**, and a **Logistic Regression classifier**, deployed as an interactive **Streamlit web application** with CI-validated inference.
+
+---
+
+## 🌐 Live Demo
+
+👉 **Deployed Application:**
+[Web Application URL](https://offenseval-nlp-ojkd85r386zbffvjbvrkst.streamlit.app/)
+
+> The app demonstrates real-time offensive language detection with sentiment transparency and confidence-based predictions.
 
 ---
 
 ## 📌 Project Overview
 
-This project implements an **end-to-end offensive language detection pipeline**, covering:
+This project implements a **complete end-to-end offensive language detection pipeline**, covering:
 
 * Text preprocessing & normalization
 * Transformer-based semantic embeddings
@@ -16,20 +27,20 @@ This project implements an **end-to-end offensive language detection pipeline**,
 * Automated inference testing (CI-ready)
 * Interactive web-based deployment
 
-The system is trained and evaluated on the **TweetEval – Offensive Language** dataset and designed with **transparency, reproducibility, and deployability** in mind.
+The system is trained and evaluated on the **TweetEval – Offensive Language** benchmark and designed with **interpretability, robustness, and deployability** in mind.
 
 ---
 
 ## 🎯 Key Features
 
-* 🔍 **Transformer-based embeddings** (DistilBERT – SentenceTransformers)
+* 🔍 **Transformer-based embeddings** (DistilBERT via SentenceTransformers)
 * 😊 **Sentiment-aware modeling** using VADER compound scores
 * ⚖️ **Interpretable classifier** (Logistic Regression)
-* 📊 **Confidence scores & explanations**
-* 🧪 **Automated inference tests using PyTest**
-* 🌐 **Streamlit web application**
-* 🚀 **Deployment-ready for Streamlit Cloud**
-* 📁 **Clean, modular, industry-standard repo structure**
+* 📊 **Confidence scores & transparent explanations**
+* 🧪 **Automated inference testing using PyTest**
+* 🌐 **Interactive Streamlit web application**
+* 🚀 **Deployment-ready architecture**
+* 📁 **Clean, modular, industry-standard repository structure**
 
 ---
 
@@ -74,41 +85,35 @@ Offensive / Not Offensive Prediction
 
 ---
 
-## 🌐 Web Application (Streamlit)
+## 🌐 Web Application Features
 
-The Streamlit app provides:
+The deployed application provides:
 
-* ✔️ Preprocessed text preview
-* ✔️ Predicted label & confidence score
+* ✔️ Preprocessed text preview (model input transparency)
+* ✔️ Predicted label with confidence score
 * ✔️ Sentiment analysis (Positive / Neutral / Negative)
-* ✔️ Color-coded sentiment bars with percentages
-* ✔️ Model explanation & transparency
-* ✔️ Clear disclaimers and limitations
-
-To run locally:
-
-```bash
-streamlit run app.py
-```
+* ✔️ Color-coded sentiment bars with percentage distribution
+* ✔️ Clear explanation of model reasoning
+* ✔️ Explicit disclaimers and limitations
 
 ---
 
 ## 🧪 Automated Testing (CI-Ready)
 
-Inference tests ensure:
+Inference tests validate:
 
-* Model loads correctly
-* Preprocessing returns valid feature vectors
-* Predictions run successfully across:
+* Model loading and compatibility
+* Correct preprocessing output shape
+* Robust prediction across:
 
   * Short, medium, and long inputs
   * Offensive and non-offensive language
-* Probability outputs are valid and normalized
+* Proper probability normalization
 
-Run tests with:
+Run locally with:
 
 ```bash
-pytest tests/
+pytest tests/test_inference.py
 ```
 
 ---
@@ -147,22 +152,22 @@ This system predicts offensive language based on patterns learned from social me
 **Limitations:**
 
 * Sarcasm and humor may not be interpreted correctly
-* Cultural context and implicit meanings may be missed
-* Not intended to replace human moderation or judgment
+* Cultural and contextual nuances may be missed
+* Predictions are intended to **support**, not replace, human judgment
 
-Use predictions responsibly.
+Use responsibly.
 
 ---
 
-## 👨‍💻 Developer Information
+## 👨‍💻 Developer
 
-**Name:** Arunava Kumar Chakraborty
+**Arunava Kumar Chakraborty**
 
-🔗 **LinkedIn:**
-[https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
+*Data Analyst | ML Enthusiast
 
-🐙 **GitHub:**
-[https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
+🔗 [https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
+
+🐙 [https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
 
 ---
 
@@ -172,22 +177,9 @@ This project is licensed under the **MIT License** — see the `LICENSE` file fo
 
 ---
 
-## 🚀 Deployment
-
-This application can be deployed **for free** using **Streamlit Cloud**:
-
-1. Fork or clone this repository
-2. Log in to [https://streamlit.io/cloud](https://streamlit.io/cloud)
-3. Select `app.py` as the entry point
-4. Deploy 🚀
-
----
-
 ## ⭐ Acknowledgements
 
 * HuggingFace SentenceTransformers
 * VADER Sentiment Analysis
 * TweetEval Benchmark
 * Streamlit
-
----
