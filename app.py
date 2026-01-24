@@ -70,6 +70,12 @@ if st.button("Analyze"):
         # -----------------------------
         st.subheader("🧹 Preprocessed Text")
         st.code(cleaned)
+        st.markdown(
+            f"""
+            
+            ---
+            """
+        )
 
         # ------------------
         # Sentiment Analysis
@@ -119,6 +125,8 @@ if st.button("Analyze"):
             • **Negative:** compound ≤ -0.05  
 
             *(Overall scale: -1 = very negative, +1 = very positive)*
+            
+            ---
             """
         )
 
@@ -190,6 +198,8 @@ st.markdown(
     **Validation Performance:**  
     • Macro F1 ≈ 0.72  
     • ROC-AUC ≈ 0.81  
+    
+    ---
     """
 )
 
@@ -225,6 +235,7 @@ st.markdown(
 
     🐙 [https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
 
+    ---
     ---
     """
 )
