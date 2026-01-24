@@ -224,9 +224,5 @@ st.markdown(
     🔗 [https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
 
     🐙 [https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
-
-    ---
-    *This application is developed as part of an academic and research-oriented
-    project on transformer-based offensive language detection.*
     """
 )
