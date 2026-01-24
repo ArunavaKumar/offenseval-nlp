@@ -236,6 +236,5 @@ st.markdown(
     🐙 [https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
 
     ---
-    ---
     """
 )
