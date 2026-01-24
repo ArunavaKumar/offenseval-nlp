@@ -219,7 +219,7 @@ st.markdown(
     """
     **Arunava Kumar Chakraborty**
     
-    *Data Analyst@Paperpedia*
+    *Data Analyst | ML Enthusiast*
 
     🔗 [https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
 
