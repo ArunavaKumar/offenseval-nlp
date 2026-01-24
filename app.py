@@ -68,7 +68,7 @@ if st.button("Analyze"):
         # -----------------------------
         # Show Preprocessed Text FIRST
         # -----------------------------
-        st.subheader("🧹 Preprocessed Text (Model Input)")
+        st.subheader("🧹 Preprocessed Text")
         st.code(cleaned)
 
         # -----------------------------
