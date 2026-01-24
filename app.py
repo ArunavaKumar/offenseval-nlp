@@ -71,27 +71,6 @@ if st.button("Analyze"):
         st.subheader("🧹 Preprocessed Text")
         st.code(cleaned)
 
-        # -----------------------------
-        # Prediction
-        # -----------------------------
-        probs = model.predict_proba(X)[0]
-        pred_class = np.argmax(probs)
-        confidence = probs[pred_class]
-        predicted_label = label_map[str(pred_class)]
-
-        # -----------------------------
-        # Prediction Result
-        # -----------------------------
-        st.subheader("📌 Prediction Result")
-
-        st.markdown(
-            f""" 
-            **Confidence Score: `{confidence:.4f}`**
-
-            **Predicted Offensive Language Category: `{predicted_label}`** 
-            """
-        )
-
         # ------------------
         # Sentiment Analysis
         # ------------------
@@ -140,6 +119,27 @@ if st.button("Analyze"):
             • **Negative:** compound ≤ -0.05  
 
             *(Overall scale: -1 = very negative, +1 = very positive)*
+            """
+        )
+
+        # -----------------------------
+        # Prediction
+        # -----------------------------
+        probs = model.predict_proba(X)[0]
+        pred_class = np.argmax(probs)
+        confidence = probs[pred_class]
+        predicted_label = label_map[str(pred_class)]
+
+        # -----------------------------
+        # Prediction Result
+        # -----------------------------
+        st.subheader("📌 Prediction Result")
+
+        st.markdown(
+            f""" 
+            **Confidence Score: `{confidence:.4f}`**
+
+            **Predicted Offensive Language Category: `{predicted_label}`** 
             """
         )
 
