@@ -18,6 +18,7 @@ import torch
 # NLTK Setup
 # -----------------------------
 nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 # -----------------------------
 # Global Objects (Loaded Once)
