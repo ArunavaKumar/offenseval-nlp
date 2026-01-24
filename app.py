@@ -217,12 +217,12 @@ st.subheader("👨‍💻 Developer Information")
 
 st.markdown(
     """
-    **Name:** Arunava Kumar Chakraborty  
+    **Arunava Kumar Chakraborty**
+    
+    *Data Analyst@Paperpedia*
 
-    **LinkedIn:**  
     🔗 [https://www.linkedin.com/in/arunava-kr-chakraborty](https://www.linkedin.com/in/arunava-kr-chakraborty)
 
-    **GitHub:**  
     🐙 [https://github.com/ArunavaKumar](https://github.com/ArunavaKumar)
 
     ---
