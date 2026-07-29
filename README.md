@@ -1,4 +1,3 @@
-````markdown
 <p align="center">
   <img
     src="assets/offenseval-nlp-banner.png"
