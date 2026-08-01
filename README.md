@@ -73,35 +73,34 @@ Both services are containerized using Docker, stored in Azure Container Registry
                          User
                            │
                            ▼
-                Streamlit Frontend
-                Azure Container App
+                  Streamlit Frontend
+                  Azure Container App
                            │
                     HTTPS REST API
                            │
                            ▼
                    FastAPI Backend
-                Azure Container App
+                 Azure Container App
                            │
              Text Cleaning and Normalization
                            │
                            ▼
           DistilBERT Sentence Embeddings (768D)
                            │
-                           ├───────────────┐
-                           │               │
-                           ▼               ▼
-                 Semantic Features   VADER Sentiment
-                           │               │
-                           └───────┬───────┘
-                                   ▼
-                     Feature Concatenation
-                              769D
-                                   │
-                                   ▼
-                    Logistic Regression Model
-                                   │
-                                   ▼
-                 Prediction, Confidence, Sentiment
+                   ├───────────────┐
+                   │               │
+                   ▼               ▼
+           Semantic Features   VADER Sentiment
+                   │               │
+                   └───────┬───────┘
+                           ▼
+             Feature Concatenation (769D)
+                           │
+                           ▼
+              Logistic Regression Model
+                           │
+                           ▼
+           Prediction, Confidence, Sentiment
 ````
 
 ---
